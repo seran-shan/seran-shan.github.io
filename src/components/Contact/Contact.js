@@ -81,8 +81,8 @@ class Contact extends React.Component {
                             ADDRESS
                         </h2>
                         <p className="mt-1">
-                            97 Warren St. <br />
-                            New York, NY 10007
+                            Skedsmogata 41A <br />
+                            2000 Lillestrøm
                         </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -90,12 +90,12 @@ class Contact extends React.Component {
                             EMAIL
                         </h2>
                         <a className="text-indigo-400 leading-relaxed">
-                            reedbarger@email.com
+                            seran@live.no
                         </a>
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                             PHONE
                         </h2>
-                        <p className="leading-relaxed">123-456-7890</p>
+                        <p className="leading-relaxed">+47 907 10 612</p>
                         </div>
                     </div>
                     </div>
