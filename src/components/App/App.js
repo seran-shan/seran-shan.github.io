@@ -6,7 +6,6 @@ import Navbar from '../Navbar/Navbar';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
-import Testimonials from '../Testimonials/Testimonials';
 import Contact from '../Contact/Contact';
 
 class App extends React.Component {
@@ -17,7 +16,6 @@ class App extends React.Component {
         <About />
         <Projects />
         <Skills />
-        <Testimonials />
         <Contact />
       </main>
     );
