@@ -1,7 +1,6 @@
 import React from "react";
 
 import { CodeIcon } from "@heroicons/react/solid";
-import { projects } from "../../data";
 
 class Projects extends React.Component {
     render() {
@@ -51,3 +50,38 @@ class Projects extends React.Component {
 }
 
 export default Projects;
+
+export const projects = [
+    {
+      title: "Salarychecker",
+      subtitle: "Java, JavaFX and react",
+      description:
+        "This app was developed under the course IT1901, Informatics, Project I. The purpose of the app was that employees in commission-based work get the opportunity to check that they have actually received the correct salary from the employer.",
+      image: "./project-1.jpg",
+      link: "https://github.com/seran-shan/Salarychecker",
+    },
+    {
+      title: "Blackjack",
+      subtitle: "Java and JavaFX",
+      description:
+        "This app was developed under the course TDT4100, Object-oriented programming. This is a simple blackjack game with the option of registering a user. The app also gives the user the opportunity to play the game from where they left off.",
+      image: "./project-2.jpg",
+      link: "https://github.com/seran-shan/Blackjack",
+    },
+    {
+      title: "Ravenous",
+      subtitle: "React",
+      description:
+        "My first react app. This app is for making searches for restaurants. The userI should be able to view a list of restaurants returned by the Yelp API. The user are able to sort through restaurants using a filter.",
+      image: "./project-3.jpg",
+      link: "https://github.com/seran-shan/Ravenous",
+    },
+    {
+      title: "Jammming",
+      subtitle: "React",
+      description:
+        "Final project for Codecademy Pro Intensive: \"Build Front-End Web Applications from Scratch\" This app is a alternative client using the Spotify API.",
+      image: "./project-4.jpg",
+      link: "https://github.com/seran-shan/jammming",
+    },
+  ];

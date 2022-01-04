@@ -1,7 +1,15 @@
 import React from "react";
 
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
-import { skills } from "../../data";
+
+export const skills = [
+    "Java",
+    "React",
+    "Python",
+    "Node",
+    "Swift",
+    "Material UI",
+  ];
 
 class Skills extends React.Component {
     render() {
