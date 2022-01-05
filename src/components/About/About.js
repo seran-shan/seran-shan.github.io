@@ -10,7 +10,7 @@ class About extends React.Component {
                             Hi, I'm Seran.
                         </h1>
                         <p className="mb-8 leading-relaxed">
-                            I am an computer science student at NTNU in Trondheim, Norway.  
+                            I am a computer science student at NTNU in Trondheim, Norway.  
                             I'm driven by learning new things and I'm always looking for a challenge. 
                         </p>
                         <div className="flex justify-center">
